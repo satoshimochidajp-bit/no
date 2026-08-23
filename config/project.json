@@ -1,0 +1,65 @@
+{
+  "project_name": "05-50 バグったシーン10種類 Azure正規音声",
+  "source_pptx": "input/source_05-50.pptx",
+  "source_pptx_sha256": "6f1e71ca66edd0206a3569a3bace4f7eaffc419517320742d4f2f2041516bd60",
+  "source_slide": 5,
+  "next_slide": 6,
+  "expected_slide_count": 50,
+  "required_speaker": "バグっぺ",
+  "required_term": "問いの最後の言葉",
+  "required_pronunciation": "といのさいごのことば",
+  "bug_phrase": "バグった！",
+  "forbidden_terms": [
+    "\u554f\u672b",
+    "\u3082\u3093\u307e\u3064",
+    "\u4e09\u6b04"
+  ],
+  "voice": {
+    "name": "en-GB-OllieMultilingualNeural",
+    "locale": "ja-JP",
+    "rate": "+14%",
+    "pitch": "+16%",
+    "playback": 0.75,
+    "gain_multiplier": 1.0,
+    "azure_output_format": "riff-48khz-16bit-mono-pcm"
+  },
+  "timing": {
+    "pre_roll_seconds": 3.0,
+    "sentence_pause_seconds": 1.0,
+    "gif_motion_seconds": 6.0,
+    "gif_final_hold_seconds": 3.0,
+    "post_roll_seconds": 3.0,
+    "bug_bgm_offset_seconds": 2.0
+  },
+  "mix": {
+    "lesson_bgm_volume": 0.30,
+    "bug_bgm_volume": 0.15,
+    "limiter": 0.96
+  },
+  "video": {
+    "width": 2560,
+    "height": 1440,
+    "fps": 30,
+    "codec": "libx264",
+    "preset": "veryfast",
+    "crf": 14,
+    "pixel_format": "yuv420p"
+  },
+  "audio": {
+    "codec": "aac",
+    "bitrate": "256k",
+    "sample_rate": 48000,
+    "channels": 2
+  },
+  "gif": {
+    "path": "assets/gif/bug.gif",
+    "expected_duration_seconds": 6.0,
+    "x": 782,
+    "y": 222,
+    "width": 994,
+    "height": 994,
+    "must_have_alpha": true,
+    "hide_normal_character": true
+  },
+  "output_file": "05-50_バグったシーン10種類_Azure正規バグっぺ音声_2K_30fps.mp4"
+}

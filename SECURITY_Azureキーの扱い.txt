@@ -1,0 +1,20 @@
+Azure Speechキーの安全な扱い
+
+1. このパッケージにはAzureのキーを含めていません。
+2. キーはGitHubの「Repository secrets」へだけ登録します。
+3. キーをconfig/project.json、README、Python、PowerPointへ書かないでください。
+4. キーをチャット、メール、共有画面へ貼らないでください。
+5. GitHubリポジトリはPrivateを推奨します。
+6. ワークフローの権限は「contents: read」に限定しています。
+7. 音声キャッシュ、MP4、検査レポートにキーは保存しません。
+8. キーが漏れた疑いがある場合は、Azureポータルでキーを再生成し、GitHub Secretを更新します。
+
+GitHubへ登録するSecret名
+
+AZURE_SPEECH_KEY
+AZURE_SPEECH_REGION
+
+リージョンの例
+
+japaneast
+
